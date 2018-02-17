@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="5.4.6" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="40687,9130545255" ReportOptions.Description.Text="" ReportOptions.LastChange="43147,4754986343" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;procedure Page1OnBeforePrint(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;  GroupHeader1.StartNewPage := (&#60;frxConfigOrgao.&#34;QUEBRA_PAG_BAIRRO&#34;&#62;='S');&#13;&#10;  GroupHeader2.StartNewPage := (&#60;frxConfigOrgao.&#34;QUEBRA_PAG_BAIRRO&#34;&#62;='S');&#13;&#10;end;&#13;&#10;&#13;&#10;begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="frxConfigOrgao" DataSetName="frxConfigOrgao"/>
+    <item DataSet="frxMapaLogradouro" DataSetName="frxMapaLogradouro"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="5" RightMargin="5" TopMargin="5" BottomMargin="5" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="" OnBeforePrint="Page1OnBeforePrint">
+    <TfrxPageFooter Name="PageFooter1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="20,77953" Left="0" Top="359,05535" Width="755,906">
+      <TfrxLineView Name="Line3" Align="baWidth" Left="0" Top="1,70841000000001" Width="755,906" Height="0" StretchMode="smActualHeight" Color="0" Frame.Typ="4"/>
+      <TfrxSysMemoView Name="SysMemo5" Left="319,370285" Top="4,15748030999998" Width="117,16543" Height="15,1181102362205" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="1" ParentFont="False" VAlign="vaCenter" Text="Página: [PAGE#] / [TOTALPAGES#]"/>
+      <TfrxMemoView Name="Memo18" Left="659,63822" Top="4,15748030999998" Width="94,48825" Height="15,1181102362205" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="3" HAlign="haRight" ParentFont="False" Text="GeraSys . Ti (c)"/>
+      <TfrxMemoView Name="Memo6" Left="0" Top="4,15748031496065" Width="215,43311236" Height="15,11812" DataSet="frxConfigOrgao" DataSetName="frxConfigOrgao" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[frxConfigOrgao.&#34;nome_fr3&#34;]"/>
+    </TfrxPageFooter>
+    <TfrxPageHeader Name="PageHeader1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="109,60637" Left="0" Top="18,89765" Width="755,906">
+      <TfrxShapeView Name="Shape3" Align="baWidth" Left="0" Top="78,50402" Width="755,906" Height="30,23624" Fill.BackColor="15197402" Frame.Color="16777215"/>
+      <TfrxMemoView Name="frxConfigOrgaoRAZAO_SOCIAL" Left="109,60637" Top="2,02362205" Width="536,69326" Height="15,87401575" DataSet="frxConfigOrgao" DataSetName="frxConfigOrgao" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="[frxConfigOrgao.&#34;RAZAO_SOCIAL2&#34;]"/>
+      <TfrxMemoView Name="Memo2" Left="109,6065726" Top="41,259895" Width="536,6928548" Height="15,87401575" AutoWidth="True" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="[frxConfigOrgao.&#34;TIT_REL1&#34;]"/>
+      <TfrxMemoView Name="frxConfigOrgaoNOME_SYS" Left="109,60637" Top="22,67718" Width="536,69326" Height="15,87401575" DataSet="frxConfigOrgao" DataSetName="frxConfigOrgao" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[frxConfigOrgao.&#34;NOME_SYS&#34;]"/>
+      <TfrxMemoView Name="Memo7" Left="219,21259843" Top="85,06299213" Width="151,1812" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Calibri" Font.Style="1" ParentFont="False" VAlign="vaCenter" Text="Descrição"/>
+      <TfrxMemoView Name="Memo1" Left="109,6065726" Top="59,3385826771654" Width="536,6928548" Height="15,87401575" AutoWidth="True" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="[frxConfigOrgao.&#34;TIT_REL2&#34;]"/>
+      <TfrxMemoView Name="Memo4" Left="68,03149606" Top="85,48825" Width="79,37013" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Calibri" Font.Style="1" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Id."/>
+      <TfrxPictureView Name="Picture2" Left="3,77953" Top="0" Width="90,70872" Height="73,32282976" DataField="LOGOMARCA" DataSet="frxConfigOrgao" DataSetName="frxConfigOrgao" HightQuality="False" Transparent="False" TransparentColor="16777215"/>
+      <TfrxLineView Name="Line6" Left="99,04731" Top="20,45671" Width="657,41711535" Height="0" StretchMode="smActualHeight" Color="0" Frame.Style="fsSquare" Frame.Typ="4"/>
+      <TfrxSysMemoView Name="SysMemo1" Left="661,41775" Top="59,33858268" Width="94,48825" Height="15,11812" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="[DATE]"/>
+      <TfrxMemoView Name="Memo5" Left="661,41775" Top="22,67718" Width="94,48825" Height="15,87401575" DataSet="frxConfigOrgao" DataSetName="frxConfigOrgao" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" HAlign="haRight" ParentFont="False" Text="[frxConfigOrgao.&#34;versao_SYS&#34;]"/>
+    </TfrxPageHeader>
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="21,92125984" Left="0" Top="275,90569" Width="755,906" ColumnWidth="0" ColumnGap="0" DataSet="frxMapaLogradouro" DataSetName="frxMapaLogradouro" RowCount="0">
+      <TfrxMemoView Name="frxTabTarifaQTD_INI" Left="83,14961606" Top="1,55905999999999" Width="52,91342" Height="15,11812" DataField="ENDER_ID_LOGRAD" DataSet="frxMapaLogradouro" DataSetName="frxMapaLogradouro" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" HAlign="haRight" ParentFont="False" Text="[frxMapaLogradouro.&#34;ENDER_ID_LOGRAD&#34;]"/>
+      <TfrxMemoView Name="frxTabTarifaQTD_FIM" Left="219,21259843" Top="1,55905999999999" Width="457,32313" Height="15,11812" DataField="ENDER_DESCR_LOGRAD" DataSet="frxMapaLogradouro" DataSetName="frxMapaLogradouro" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[frxMapaLogradouro.&#34;ENDER_DESCR_LOGRAD&#34;]"/>
+      <TfrxLineView Name="Line1" Left="0" Top="19,67718" Width="755,906" Height="0" Color="0" Frame.Style="fsDot" Frame.Typ="4"/>
+    </TfrxMasterData>
+    <TfrxGroupHeader Name="GroupHeader1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="18,89765" Left="0" Top="188,9765" Width="755,906" Condition="frxMapaLogradouro.&#34;ENDER_ID_DISTRITO&#34;" ReprintOnNewPage="True">
+      <TfrxMemoView Name="frxMapaLogradouroENDER_ID_DISTRITO" Left="0" Top="2" Width="525,35467" Height="15,11812" DataSet="frxMapaLogradouro" DataSetName="frxMapaLogradouro" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Distrito: [frxMapaLogradouro.&#34;ENDER_ID_DISTRITO&#34;] - [frxMapaLogradouro.&#34;ENDER_DESCR_DISTRITO&#34;]">
+        <Formats>
+          <item/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+    </TfrxGroupHeader>
+    <TfrxGroupHeader Name="GroupHeader2" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="22,67718" Left="0" Top="230,55133" Width="755,906" Condition="frxMapaLogradouro.&#34;ENDER_ID_BAIRRO&#34;" ReprintOnNewPage="True">
+      <TfrxMemoView Name="Memo3" Left="22,67718" Top="3,77952999999999" Width="525,35467" Height="15,11812" DataSet="frxMapaLogradouro" DataSetName="frxMapaLogradouro" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Bairro: [frxMapaLogradouro.&#34;ENDER_ID_BAIRRO&#34;] - [frxMapaLogradouro.&#34;ENDER_DESCR_BAIRRO&#34;]">
+        <Formats>
+          <item/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+    </TfrxGroupHeader>
+  </TfrxReportPage>
+</TfrxReport>
