@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2011/11/17 18:24:01.000.197,C:\Program Files\FastReports\FastReport 4\Demos\PrintFile\Project1.dproj=D:\Aplicativos\Delphi 2010\Gestor_RH\Fontes\ConfigOrgao.dproj</Transaction>
+    <Transaction>2011/11/17 18:24:10.000.099,=D:\Aplicativos\Delphi 2010\Gestor_RH\Fontes\gsLib.pas</Transaction>
+    <Transaction>2011/11/17 18:25:03.000.500,=D:\Aplicativos\Delphi 2010\Gestor_RH\Fontes\udmPrincipal.pas</Transaction>
+    <Transaction>2011/11/17 18:26:28.000.551,C:\Program Files\FastReports\FastReport 4\Demos\PrintFile\Unit1.pas=D:\Aplicativos\Delphi 2010\Gestor_RH\Compilado\ConfigOrgaoPrincipal.pas</Transaction>
+    <Transaction>2011/11/17 18:26:28.000.551,C:\Program Files\FastReports\FastReport 4\Demos\PrintFile\Unit1.dfm=D:\Aplicativos\Delphi 2010\Gestor_RH\Compilado\ConfigOrgaoPrincipal.dfm</Transaction>
+    <Transaction>2012/08/08 00:40:14.000.838,D:\Aplicativos\Delphi 2010\Acquarius\Fontes\ConfigOrgao.dproj=D:\Aplicativos\Delphi 2010\Acquarius\Fontes\ConfigOrgao.dproj</Transaction>
+    <Transaction>2012/08/08 00:50:20.000.480,=D:\Aplicativos\Delphi 2010\Acquarius\Fontes\ConfigOrgaoPrincipal.pas</Transaction>
+  </Transactions>
+</BorlandProject>

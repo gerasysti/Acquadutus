@@ -1,0 +1,21 @@
+object frmPadrao1: TfrmPadrao1
+  Left = 513
+  Top = 239
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'frmPadrao1'
+  ClientHeight = 442
+  ClientWidth = 680
+  Color = 15531519
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  KeyPreview = True
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  OnKeyDown = FormKeyDown
+  PixelsPerInch = 96
+  TextHeight = 13
+end
